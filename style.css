@@ -7,8 +7,8 @@ nav{
     flex-direction: row;
     justify-content: space-between;
     padding: 1rem 6rem;
-    background-color: black;
-    color: white;
+    background-color: rgba(255, 192, 203, 0.342);
+    color: black;
     align-items: center;
     font-size: 20px;
 }
@@ -25,14 +25,14 @@ nav input{
     padding: 1rem 2rem;
     border-radius: 30px;
     background-color: transparent;
-    color: white;
-    border: 1px solid rgb(99, 99,99);
-    font-size: 20px;
+    color: black;
+    border: 1px solid rgb(99, 99, 99);
+    font-size: 10px;
 }
 
-nav input::placeholder{
+nav input .placeholder{
     color: white;
-    font-size: 16px;
+    font-size: 15px;
 }
 
 #hero{
@@ -49,28 +49,30 @@ nav input::placeholder{
     flex-direction: column;
     justify-content: center;
     height: 100%;
-    background-color: rgba(0, 0, 0, 0.295);
+    background-color: rgba(0, 0, 0, 0.151);
     color: white;
     padding-left: 15%;
 
 }
 
 #hero-overlay p{
-    font-size: 20px;
+    font-size: 18px;
     text-transform: uppercase;
     justify-content: center;
 
 }
 
 #hero-overlay h1{
-    font-size:4rem ;
+    font-size:3rem ;
     font-weight: bold ;
+    color: white;
+    font-style: oblique;
     
     
 }
 
 .primary-button{
-    background-color: rgba(255, 192, 203, 0.534);
+    background-color: rgba(255, 192, 203, 0.705);
     width: fit-content;
     padding: 15px 25px;
     font-size: 20px;
